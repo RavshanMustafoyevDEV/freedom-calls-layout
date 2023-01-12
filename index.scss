@@ -1,0 +1,34 @@
+// Styles
+@use './styles/navbar';
+@use './styles/home';
+@use './styles/vars' as vars;
+
+
+
+
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+
+.custom-btn{
+    background: vars.$basic-red;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+}
+
+
+
+
+

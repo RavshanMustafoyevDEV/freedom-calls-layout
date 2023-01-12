@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .icon img {
+  width: 60px;
+  height: 60px;
+}
+
+.nav-item {
+  margin: 0 1rem;
+}
+
+.nav-item p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #8c8c8c;
+  border-bottom: 2px solid transparent;
+  padding: 5px 10px;
+  transition: 0.3s all;
+  margin: 0;
+}
+.nav-item p:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #8c8c8c;
+}
+
+.nav-input {
+  border: none;
+  border-bottom: 1px solid #8c8c8c;
+  font-size: 14px;
+  transition: 0.3s all;
+}
+.nav-input:focus {
+  border-bottom: 2px solid #5c5c5c;
+  outline: none;
+  color: #5c5c5c;
+}
+
+.home {
+  display: flex;
+  background-image: url("../img/watches.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: scroll;
+  background-size: contain;
+  height: 60vh;
+  border-bottom: 1px solid #8c8c8c;
+}
+
+.text-home {
+  max-width: 40rem;
+}
+.text-home .header {
+  font-size: 40px;
+  font-weight: 700;
+}
+.text-home .para-home {
+  margin: 0;
+  padding-left: 2rem;
+  max-width: 30rem;
+  color: #8c8c8c;
+  border-left: 2px solid #8c8c8c;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.custom-btn {
+  background: #ef5350;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+}
+
+/*# sourceMappingURL=style.css.map */

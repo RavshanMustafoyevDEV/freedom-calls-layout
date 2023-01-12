@@ -1,0 +1,33 @@
+@use './vars' as vars;
+
+.home{
+    display: flex;
+    background-image: url('../img/watches.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: scroll;
+    background-size: contain;
+    height: 60vh;
+    border-bottom: 1px solid vars.$basic-grey;
+}
+
+.text-home{
+    max-width: 40rem;
+
+    .header{
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .para-home{
+        margin: 0;
+        padding-left: 2rem;
+        max-width: 30rem;
+        color: vars.$basic-grey;
+        border-left: 2px solid vars.$basic-grey;
+    }
+}
+
+
+
+
