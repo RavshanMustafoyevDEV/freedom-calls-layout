@@ -1,19 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 .navbar {
-  display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .navbar .icon img {
   width: 60px;
   height: 60px;
-}
-
-.nav-item {
-  margin: 0 1rem;
-}
-.nav-item:first-child {
-  margin-left: 0;
 }
 
 .nav-item p {
@@ -108,12 +100,12 @@
 
 .ad-section {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 .ad-section .banner img {
-  width: 350px;
-  height: 550px;
+  width: 470px;
+  height: 700px;
 }
 .ad-section .text-ad {
   max-width: 40rem;
@@ -121,15 +113,41 @@
   padding: 10px 20px;
 }
 .ad-section .text-ad .header {
-  font-size: 30px;
+  font-size: 2.3em;
   font-weight: 700;
 }
 .ad-section .text-ad .para-ad {
   margin: 0;
   padding-left: 2rem;
   max-width: 30rem;
+  font-size: 14px;
+  font-weight: 400;
   color: #8c8c8c;
   border-left: 2px solid #8c8c8c;
+}
+
+footer {
+  background-image: url("../img/runners.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+footer .text-foo {
+  max-width: 40rem;
+  color: #fff;
+  padding-top: 15rem;
+  margin-right: 1rem;
+}
+footer .text-foo .header {
+  font-size: 40px;
+  font-weight: 700;
+}
+footer .text-foo .para-foo {
+  margin: 0;
+  padding-left: 2rem;
+  max-width: 30rem;
+  color: #fff;
+  border-left: 2px solid #fff;
 }
 
 * {

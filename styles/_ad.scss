@@ -2,12 +2,12 @@
 
 .ad-section{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 
     .banner img{
-        width: 350px;
-        height: 550px;
+        width: 470px;
+        height: 700px;
     }
 
     .text-ad{
@@ -16,7 +16,7 @@
         padding: 10px 20px;
     
         .header{
-            font-size: 30px;
+            font-size: 2.3em;
             font-weight: 700;
         }
     
@@ -24,6 +24,8 @@
             margin: 0;
             padding-left: 2rem;
             max-width: 30rem;
+            font-size: 14px;
+            font-weight: 400;
             color: vars.$basic-grey;
             border-left: 2px solid vars.$basic-grey;
         }
