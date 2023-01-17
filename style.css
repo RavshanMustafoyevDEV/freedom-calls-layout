@@ -12,6 +12,9 @@
 .nav-item {
   margin: 0 1rem;
 }
+.nav-item:first-child {
+  margin-left: 0;
+}
 
 .nav-item p {
   font-size: 16px;
@@ -32,6 +35,7 @@
   border-bottom: 1px solid #8c8c8c;
   font-size: 14px;
   transition: 0.3s all;
+  margin-left: 0;
 }
 .nav-input:focus {
   border-bottom: 2px solid #5c5c5c;
@@ -52,12 +56,75 @@
 
 .text-home {
   max-width: 40rem;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px 20px;
 }
 .text-home .header {
   font-size: 40px;
   font-weight: 700;
 }
 .text-home .para-home {
+  margin: 0;
+  padding-left: 2rem;
+  max-width: 30rem;
+  color: #8c8c8c;
+  border-left: 2px solid #8c8c8c;
+}
+
+.post .header {
+  font-size: 22px;
+  font-weight: 600;
+}
+.post .para-post {
+  font-size: 14px;
+  font-weight: 500;
+}
+.post .post-icon-1 {
+  display: flex;
+}
+.post .post-icon-1 span {
+  padding: 2px;
+  background: #8c8c8c;
+  margin: 0 4px;
+}
+.post .post-icon-2 {
+  color: #ef5350;
+  display: flex;
+  align-items: center;
+}
+.post .post-icon-2 .post-line {
+  width: 40px;
+  height: 2px;
+  margin-right: 0.5rem;
+  background: #ef5350;
+  transition: 0.3s all;
+}
+.post .post-icon-2:hover {
+  cursor: pointer;
+}
+.post .post-icon-2:hover .post-line {
+  width: 80px;
+}
+
+.ad-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.ad-section .banner img {
+  width: 350px;
+  height: 550px;
+}
+.ad-section .text-ad {
+  max-width: 40rem;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px 20px;
+}
+.ad-section .text-ad .header {
+  font-size: 30px;
+  font-weight: 700;
+}
+.ad-section .text-ad .para-ad {
   margin: 0;
   padding-left: 2rem;
   max-width: 30rem;

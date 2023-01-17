@@ -14,7 +14,13 @@
 
 .nav-item{
     margin: 0 1rem;
+
+    &:first-child{
+        margin-left: 0;
+    }
 }
+
+
 
 .nav-item p{
     font-size: 16px;
@@ -37,6 +43,7 @@
     border-bottom: 1px solid vars.$basic-grey;
     font-size: 14px;
     transition: .3s all;
+    margin-left: 0;
 
     &:focus{
         border-bottom: 2px solid #5c5c5c;

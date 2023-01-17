@@ -1,0 +1,31 @@
+@use './vars' as vars;
+
+.ad-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .banner img{
+        width: 350px;
+        height: 550px;
+    }
+
+    .text-ad{
+        max-width: 40rem;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 10px 20px;
+    
+        .header{
+            font-size: 30px;
+            font-weight: 700;
+        }
+    
+        .para-ad{
+            margin: 0;
+            padding-left: 2rem;
+            max-width: 30rem;
+            color: vars.$basic-grey;
+            border-left: 2px solid vars.$basic-grey;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+@use './vars' as vars;
+
+.post{
+    .header{
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .para-post{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .post-icon-1{
+        display: flex;
+        
+
+        span{
+            padding: 2px;
+            background: vars.$basic-grey;  
+            margin: 0 4px;          
+        }
+    }
+
+    .post-icon-2{
+        color: vars.$basic-red;
+        display: flex;
+        align-items: center;
+
+        .post-line{
+            width: 40px;
+            height: 2px;
+            margin-right: 0.5rem;
+            background: vars.$basic-red;
+            transition: .3s all;
+        }
+
+        &:hover{
+            cursor: pointer;
+            
+            .post-line{
+                width: 80px;
+            }
+        }
+    }
+}
+
+
+
+
